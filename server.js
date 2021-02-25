@@ -1,7 +1,9 @@
-const discord = require('discord.js')
+const Discord = require('discord.js')
 const client = new Discord.client()
-const config = require ('./config.json')
+const config = require('./config.json')
 
-clinet.on('ready', () => {
+client.on('ready', () => {
   console.log('the client is ready')
 })
+  
+  client.login(config.token)
