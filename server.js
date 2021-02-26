@@ -5,4 +5,4 @@ const config = require('./config.json')
 client.on('ready', () => {
   console.log('the client is ready')
 })
-client.login(config.toke
+client.login()
